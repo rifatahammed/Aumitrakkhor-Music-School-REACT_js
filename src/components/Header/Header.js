@@ -6,6 +6,8 @@ const Header = () => {
   return (
     <div className="header">
       <img className="logo" src={logo} alt="" />
+      <h1>Aumitrakkhor Music School</h1>
+      <h3>Melody of your heart</h3>
       <nav>
         <NavLink to="/home">Home</NavLink>
         <NavLink to="/about">About</NavLink>
