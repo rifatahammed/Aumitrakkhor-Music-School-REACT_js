@@ -5,9 +5,12 @@ import "./Header.css";
 const Header = () => {
   return (
     <div className="header">
-      <img className="logo" src={logo} alt="" />
-      <h1>Aumitrakkhor Music School</h1>
-      <h3>Melody of your heart</h3>
+      <div className="top-banner">
+        <img className="logo banner-image" src={logo} alt="" />
+        <h1>Aumitrakkhor Music School</h1>
+        {/* <h3>Melody of your heart</h3> */}
+      </div>
+
       <nav>
         <NavLink to="/home">Home</NavLink>
         <NavLink to="/about">About</NavLink>

@@ -9,12 +9,12 @@ const Course = (props) => {
   const { name, img, instructor, price, star } = props.course;
 
   return (
-    <div className="product">
+    <div className="course">
       <div>
         <img src={img} alt="" />
       </div>
       <div>
-        <h4 className="product-name">{name}</h4>
+        <h4 className="course-name">{name}</h4>
         <p>
           <small>by: {instructor}</small>
         </p>

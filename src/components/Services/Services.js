@@ -38,7 +38,7 @@ const Services = () => {
           placeholder="Search course"
         />
       </div>
-      <div className="home-container">
+      <div className="services-container">
         <div className="course-container">
           {displayCourses.map((course) => (
             <Course key={course.key} course={course}></Course>

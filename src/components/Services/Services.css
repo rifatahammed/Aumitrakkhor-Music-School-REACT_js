@@ -6,12 +6,14 @@
 .search-container input {
   width: 75%;
 }
-.home-container {
-  display: grid;
-  grid-template-columns: 3fr 1fr;
+.services-container {
+  /* display: grid;
+  grid-template-columns: 3fr 1fr; */
+  margin-top: 30px;
 }
 .course-container {
-  border-right: 1px solid lightgray;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
   margin-right: 5px;
   margin-left: 50px;
 }
