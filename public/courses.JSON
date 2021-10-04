@@ -1,0 +1,162 @@
+[
+  {
+    "key": "1",
+    "category": "Guitar",
+    "name": "Acoustic Guitar Learning",
+    "instructor": "Rifat",
+    "price": 10000,
+    "star": 5,
+    "starCount": 3245,
+    "img": "https://m.media-amazon.com/images/I/81lmwog6fVL._AC_SL1500_.jpg",
+    "prerequisite": [
+      {
+        "description": "Having a Guitar",
+        "lvl": "any"
+      },
+      {
+        "description": "Know about Bit",
+        "lvl": "intermediate"
+      }
+    ]
+  },
+  {
+    "key": "2",
+    "category": "Guitar",
+    "name": "Lead Guitar Learning",
+    "instructor": "Samin",
+    "price": 8000,
+    "star": 5,
+    "starCount": 3005,
+    "img": "https://3.imimg.com/data3/FV/JP/MY-9704278/01-500x500.jpg",
+    "prerequisite": [
+      {
+        "description": "Having a Lead Guitar",
+        "lvl": "any"
+      },
+      {
+        "description": "Know about Bit",
+        "lvl": "intermediate"
+      }
+    ]
+  },
+  {
+    "key": "3",
+    "category": "Guitar",
+    "name": "Semi Lead Guitar Learning",
+    "instructor": "Miraz",
+    "price": 5000,
+    "star": 5,
+    "starCount": 2456,
+    "img": "https://cdn11.bigcommerce.com/s-49c12/images/stencil/590x590/products/22584/63102/9952c4a3-5e5c-447b-a2ab-7b85a6c9b717__97367.1618245036.jpg?c=2",
+    "prerequisite": [
+      {
+        "description": "Having a Semi Lead Guitar",
+        "lvl": "any"
+      },
+      {
+        "description": "Know about Bit",
+        "lvl": "intermediate"
+      }
+    ]
+  },
+  {
+    "key": "4",
+    "category": "Guitar",
+    "name": "Bass Guitar Learning",
+    "instructor": "Fahim",
+    "price": 3000,
+    "star": 5,
+    "starCount": 6342,
+    "img": "https://media.guitarcenter.com/is/image/MMGS7/RBX170Y-4-String-Electric-Bass-Guitar-Black/J11882000001000-00-500x500.jpg",
+    "prerequisite": [
+      {
+        "description": "Having a Bass Guitar",
+        "lvl": "any"
+      },
+      {
+        "description": "Know about Bit",
+        "lvl": "intermediate"
+      }
+    ]
+  },
+  {
+    "key": "5",
+    "category": "Drums",
+    "name": "Acoustic Drums Learning",
+    "instructor": "Joy",
+    "price": 6000,
+    "star": 5,
+    "starCount": 3255,
+    "img": "https://guitarshopbd.com/wp-content/uploads/2021/06/aGzXyuwtqUYxjCtztmhRFn-1200-80.jpg",
+    "prerequisite": [
+      {
+        "description": "Having a Drum set",
+        "lvl": "any"
+      },
+      {
+        "description": "Know about Bit",
+        "lvl": "intermediate"
+      }
+    ]
+  },
+  {
+    "key": "6",
+    "category": "Drums",
+    "name": "Electric Drum Learning",
+    "instructor": "Rifff",
+    "price": 4000,
+    "star": 5,
+    "starCount": 3755,
+    "img": "https://www.bhphotovideo.com/images/images750x750/pyle_pro_pted06_electronic_tabletop_drum_1276748.jpg",
+    "prerequisite": [
+      {
+        "description": "Having a Drum set",
+        "lvl": "any"
+      },
+      {
+        "description": "Know about Bit",
+        "lvl": "intermediate"
+      }
+    ]
+  },
+  {
+    "key": "7",
+    "category": "Piano",
+    "name": "Grand Piano Learning",
+    "instructor": "Rifff",
+    "price": 7000,
+    "star": 5,
+    "starCount": 1567,
+    "img": "https://cdn11.bigcommerce.com/s-yz4v5/images/stencil/1280x1280/products/425/1160/gallery_angle_front_black__50834.1473481420.jpg?c=2",
+    "prerequisite": [
+      {
+        "description": "Having a Piano",
+        "lvl": "any"
+      },
+      {
+        "description": "Know about Bit",
+        "lvl": "intermediate"
+      }
+    ]
+  },
+  {
+    "key": "8",
+    "category": "Vocal",
+    "name": "Vocal Learning",
+    "instructor": "Rifat",
+    "price": 9000,
+    "star": 5,
+    "starCount": 9872,
+    "img": "https://image.shutterstock.com/image-photo/singer-holding-microphone-stand-performing-260nw-1039242106.jpg",
+    "prerequisite": [
+      {
+        "description": "Strong Mindset",
+        "lvl": "any"
+      },
+      {
+        "description": "Know about Bit",
+        "lvl": "intermediate"
+      }
+    ]
+  }
+]

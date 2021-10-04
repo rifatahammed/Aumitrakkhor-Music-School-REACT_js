@@ -1,20 +1,23 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
+import { useEffect } from "react";
+import { useState } from "react";
 import "./Home.css";
 import useCart from "../../hooks/useCart";
 import { addToDb } from "../../utilities/fakedb";
 import Course from "../Course/Course";
 import Cart from "../Cart/Cart";
+import getit from "../../images/getit.png";
+import Intro from "../Intro/Intro";
 const Home = () => {
   const [courses, setCourses] = useState([]);
   const [cart, setCart] = useCart(courses);
-  // products to be rendered on the UI.
+  // cources to be rendered on the UI.
   const [displayCourses, setDisplayCourses] = useState([]);
 
   useEffect(() => {
-    fetch("../../fakeData/courses.JSON")
+    fetch("./courses.JSON")
       .then((res) => res.json())
       .then((data) => {
-        console.log(data);
         setCourses(data);
         setDisplayCourses(data);
       });
@@ -46,8 +49,13 @@ const Home = () => {
           placeholder="Search course"
         />
       </div>
-      <div className="shop-container">
-        <div className="product-container">
+      <div>
+        <h3>Choose your desire course now</h3>
+        <img src={getit} alt="" />
+        <Intro></Intro>
+      </div>
+      <div className="home-container">
+        <div className="course-container">
           {displayCourses.map((course) => (
             <Course
               key={course.key}

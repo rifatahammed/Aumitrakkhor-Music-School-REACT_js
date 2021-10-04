@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+// import logo from "./logo.svg";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.css";
@@ -9,7 +9,7 @@ import About from "./components/About/About";
 import Services from "./components/Services/Services";
 import Billboard from "./components/Billboard/Billboard";
 import NotFound from "./components/NotFound/NotFound";
-import { Button } from "react-bootstrap";
+// import { Button } from "react-bootstrap";
 
 function App() {
   return (

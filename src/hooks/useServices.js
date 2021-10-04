@@ -1,11 +1,10 @@
-import React from "react";
 import { useEffect } from "react";
 import { useState } from "react";
 
 const useServices = () => {
   const [services, setServices] = useState([]);
   useEffect(() => {
-    fetch("../fakeData/courses.JSON")
+    fetch("../fakeData/courses.json")
       .then((res) => res.json())
       .then((data) => setServices(data));
   }, []);
