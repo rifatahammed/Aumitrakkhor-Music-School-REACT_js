@@ -29,7 +29,7 @@ function App() {
           <Route path="/services">
             <Services></Services>
           </Route>
-          <Route path="/custom">
+          <Route path="/billboard">
             <Billboard></Billboard>
           </Route>
           <Route path="*">
