@@ -40,6 +40,9 @@ const Home = () => {
     setDisplayCourses(matchedCourse);
   };
 
+  // /* taking 3 courses from the collection  */
+
+  const newdisplayCourses = displayCourses.slice(0, 3);
   return (
     <>
       <div className="search-container">
@@ -54,9 +57,10 @@ const Home = () => {
         <img src={getit} alt="" />
         <Intro></Intro>
       </div>
+      <h4>3 of our best selling Courses Are</h4>
       <div className="home-container">
         <div className="course-container">
-          {displayCourses.map((course) => (
+          {newdisplayCourses.map((course) => (
             <Course
               key={course.key}
               course={course}

@@ -6,8 +6,10 @@ const Header = () => {
   return (
     <div className="header">
       <div className="top-banner">
+        <h1> Aumitrakkhor Music School</h1>
         <img className="logo banner-image" src={logo} alt="" />
-        <h1>Aumitrakkhor Music School</h1>
+        <br />
+
         {/* <h3>Melody of your heart</h3> */}
       </div>
 

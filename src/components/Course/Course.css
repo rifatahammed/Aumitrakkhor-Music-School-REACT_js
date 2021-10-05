@@ -1,9 +1,28 @@
+.course:hover {
+  border-radius: 10px;
+  border: 10px solid rgb(252, 100, 13);
+  box-shadow: 20px 20px 40px gray;
+}
+
 .course {
+  padding: 3px;
+  transition: 0.6s;
+  border-radius: 10px;
+  border: 15px solid rgb(59, 62, 65);
+  height: 500px;
   /* width: 200px; */
-  display: flex;
-  border-bottom: 1px solid lightgray;
-  margin-right: 5px;
-  padding-bottom: 5px;
+  /* display: flex; */
+
+  /* border: 10px solid rgb(219, 145, 145); */
+  /* border-bottom: 1px solid lightgray; */
+  margin-top: 15px;
+  margin: 10px;
+  /* padding: 7px; */
+  text-align: center;
+  width: 100%;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
 }
 .course img {
   width: 250px;
